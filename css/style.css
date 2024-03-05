@@ -8,9 +8,51 @@
 /* CSS UTILI */
 body {
     font-family: sans-serif;
+    background-color: dodgerblue;
+}
+
+.container {
+    width: 60%;
+    background-color: beige;
+    margin: 20px auto;
+
+}
+
+.check {
+    color: green;
+}
+
+.cross {
+    color: red;
+}
+
+ul .style {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.6em;
+}
+
+.bg-blue {
+    background-color: dodgerblue;
+}
+
+.bg-violet {
+    background-color: violet;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-orange {
+    background-color: orange;
 }
 
 /* CSS HEADER */
+header {
+    background-color: white;
+}
 div {
     padding: 5px 15px;
 }
@@ -25,4 +67,35 @@ h1 {
     font-size: 2em;
     line-height: 50px;
     display: inline-block;
+}
+
+/* CSS MAIN */
+main > section {
+    padding: 5px 10px;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    color: lightgrey;
+    font-size: 0.6em;
+}
+
+.btn.btn-blue {
+    background-color: aqua;
+    color: white;
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 0.9em;
+}
+
+li {
+    font-size: 0.8em;
+    padding: 10px 0;
 }
