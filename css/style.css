@@ -4,3 +4,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* CSS UTILI */
+body {
+    font-family: sans-serif;
+}
+
+/* CSS HEADER */
+div {
+    padding: 5px 15px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 50px;
+    display: inline-block;
+}
